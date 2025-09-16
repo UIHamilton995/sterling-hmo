@@ -81,12 +81,12 @@ const Index = () => {
             <div className="space-y-8 fade-in-up">
               <div className="inline-flex items-center space-x-2 bg-secondary/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-5 h-5 text-secondary" />
-                <span className="text-sm font-medium text-secondary">Rated #1 HMO in Customer Satisfaction</span>
+                <span className="text-sm font-medium text-secondary">Rated among the Best HMOs Nigeria for Customer Satisfaction</span>
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-serif font-bold text-white leading-tight">
-                Your Health,
-                <span className="text-gradient block">Our Priority</span>
+                Put your Health,
+                <span className="text-gradient block">in Our Hands</span>
               </h1>
               
               <p className="text-xl text-white/90 leading-relaxed max-w-2xl">

@@ -62,7 +62,7 @@ const Contact = () => {
       icon: MapPin,
       title: 'Visit Us',
       subtitle: 'Main Office',
-      info: '123 Healthcare Plaza, Sterling City, SC 12345',
+      info: '99 Valley View Plaza, Opebi Road, Ikeja Lagos',
       description: 'Drop by our office during business hours',
     },
     {
