@@ -22,12 +22,13 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3 focus-medical">
-            <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center">
-              <Heart className="w-7 h-7 text-primary-foreground" />
-            </div>
+            <img
+              className='h-14 w-14'
+              src="/src/assets/SterlingHMO.jpeg"
+              alt="Sterling HMO Logo" />
             <div>
-              <h1 className="text-2xl font-serif font-bold text-primary">Sterling Health</h1>
-              <p className="text-xs text-muted-foreground">Your Health, Our Priority</p>
+              <h1 className="text-2xl font-serif font-bold text-primary">Sterling HMO</h1>
+              <p className="text-xs text-muted-foreground">Put your Health in our Hands.</p>
             </div>
           </Link>
 
@@ -51,9 +52,6 @@ const Navigation = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" className="font-medium focus-medical">
-              Sign In
-            </Button>
             <Button className="btn-hero focus-medical">
               Get Started
             </Button>
