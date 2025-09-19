@@ -24,7 +24,7 @@ const Navigation = () => {
           <Link to="/" className="flex items-center space-x-3 focus-medical">
             <img
               className='h-14 w-14'
-              src="/src/assets/sterling-hmo.png"
+              src="/src/assets/sterling-logo.jpeg"
               alt="Sterling HMO Logo"
             />
             <div>

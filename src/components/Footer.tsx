@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <img
                 className='h-10 w-10'
-                src="/src/assets/sterling-hmo.png"
+                src="/src/assets/sterling-logo.jpeg"
                 alt="Sterling HMO Logo"
               />
               <div>
