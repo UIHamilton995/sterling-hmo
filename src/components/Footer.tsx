@@ -9,12 +9,14 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <Heart className="w-6 h-6 text-primary-foreground" />
-              </div>
+              <img
+                className='h-10 w-10'
+                src="/src/assets/SterlingHMO.jpeg"
+                alt="Sterling HMO Logo"
+              />
               <div>
                 <h3 className="text-xl font-serif font-bold text-primary">Sterling Health</h3>
-                <p className="text-xs text-muted-foreground">Your Health, Our Priority</p>
+                <p className="text-xs text-muted-foreground">Put your Health in our Hands.</p>
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
@@ -57,7 +59,7 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <Phone className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <p className="text-foreground font-medium">(555) 123-4567</p>
+                  <p className="text-foreground font-medium">(+234) 802-6999-710</p>
                   <p className="text-sm text-muted-foreground">24/7 Member Support</p>
                 </div>
               </div>
@@ -73,8 +75,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
                 <div>
-                  <p className="text-foreground">123 Healthcare Plaza</p>
-                  <p className="text-foreground">Sterling City, SC 12345</p>
+                  <p className="text-foreground">99 Opebi Road</p>
+                  <p className="text-foreground"> Ikeja, Lagos</p>
                 </div>
               </div>
             </div>
@@ -115,7 +117,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © 2024 Sterling Health. All rights reserved.
+              © 2025 Sterling HMO. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors duration-200 focus-medical">

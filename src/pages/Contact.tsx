@@ -48,7 +48,7 @@ const Contact = () => {
       icon: Phone,
       title: 'Call Us',
       subtitle: '24/7 Member Support',
-      info: '(555) 123-4567',
+      info: '(+234) 802-6999-710',
       description: 'Speak directly with our customer service team',
     },
     {
@@ -153,7 +153,7 @@ const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={(e) => handleInputChange('phone', e.target.value)}
-                        placeholder="(555) 123-4567"
+                        placeholder="(+234) 000-0000-000"
                         className="focus-medical"
                       />
                     </div>
@@ -287,7 +287,7 @@ const Contact = () => {
               Visit Our Office
             </h2>
             <p className="text-muted-foreground">
-              Located in the heart of Sterling City's medical district
+              Located at Valley View Plaza, in the heart of Ikeja city, Lagos.
             </p>
           </div>
           
@@ -295,8 +295,8 @@ const Contact = () => {
             <div className="h-64 bg-gradient-subtle rounded-lg flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-primary mx-auto mb-4" />
-                <p className="text-foreground font-medium">123 Healthcare Plaza</p>
-                <p className="text-muted-foreground">Sterling City, SC 12345</p>
+                <p className="text-foreground font-medium">99 Opebi Road,</p>
+                <p className="text-muted-foreground"> Ikeja, Lagos</p>
                 <Button className="btn-secondary mt-4 focus-medical">
                   Get Directions
                 </Button>

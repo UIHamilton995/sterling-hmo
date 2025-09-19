@@ -20,8 +20,8 @@ import {
 const Services = () => {
   const healthPlans = [
     {
-      name: 'Essential Care',
-      price: '$89',
+      name: 'Bronze Plan',
+      price: '₦89,000',
       period: 'per month',
       description: 'Perfect for individuals and young adults seeking basic coverage.',
       features: [
@@ -34,8 +34,8 @@ const Services = () => {
       popular: false,
     },
     {
-      name: 'Complete Care',
-      price: '$149',
+      name: 'Silver Plan',
+      price: '₦149,000',
       period: 'per month',
       description: 'Comprehensive coverage for families with all essential benefits.',
       features: [
@@ -49,8 +49,8 @@ const Services = () => {
       popular: true,
     },
     {
-      name: 'Premium Care',
-      price: '$199',
+      name: 'Gold Plan',
+      price: '₦199,000',
       period: 'per month',
       description: 'Our most comprehensive plan with premium benefits and services.',
       features: [

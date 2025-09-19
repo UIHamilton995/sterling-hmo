@@ -30,20 +30,20 @@ const About = () => {
 
   const leadership = [
     {
-      name: 'Dr. Sarah Mitchell',
-      role: 'Chief Executive Officer',
+      name: 'Dr. Simi Fasehun',
+      role: 'Executive Vice Chairman (EVC)',
       experience: '20+ years in healthcare administration',
       description: 'Former VP of Operations at major health systems, passionate about accessible healthcare.',
     },
     {
-      name: 'Dr. Michael Chen',
-      role: 'Chief Medical Officer',
+      name: 'Dr. Busola Fasehun',
+      role: 'Managing Director (MD)',
       experience: '25+ years in family medicine',
       description: 'Board-certified physician with extensive experience in preventive care and population health.',
     },
     {
-      name: 'Jennifer Rodriguez',
-      role: 'Chief Operations Officer',
+      name: 'Mr. Segun',
+      role: 'Administrations Officer',
       experience: '15+ years in healthcare operations',
       description: 'Expert in healthcare technology and member experience optimization.',
     },
@@ -65,12 +65,12 @@ const About = () => {
               About Sterling Health
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-12 fade-in-up">
-              For over two decades, Sterling Health has been a trusted partner in healthcare, 
-              dedicated to making quality medical care accessible, affordable, and convenient for families across the nation.
+              For over a decades, Sterling Health has been a trusted partner in healthcare, 
+              dedicated to making quality medical care accessible, affordable, and convenient for families across Nigeria.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
               <div className="text-center">
-                <div className="text-4xl font-bold text-primary">1999</div>
+                <div className="text-4xl font-bold text-primary">2013</div>
                 <div className="text-muted-foreground">Founded</div>
               </div>
               <div className="text-center">
@@ -98,9 +98,12 @@ const About = () => {
                 <h2 className="text-3xl font-serif font-bold text-foreground">Our Mission</h2>
               </div>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                To provide comprehensive, affordable healthcare that empowers individuals and families 
-                to live healthier lives. We are committed to preventive care, innovative health solutions, 
-                and building lasting relationships with our members and provider partners.
+                We are committed to being the leading HMO of choice,
+                with tailor mode equitable, comprehensive and qualitative
+                healthcare risk solutions, supported by our health provides
+                to the delight of our clients and others stakeholders through
+                excellent process and administrative services with a healthy
+                dose of innovation. 
               </p>
             </Card>
 
@@ -112,9 +115,11 @@ const About = () => {
                 <h2 className="text-3xl font-serif font-bold text-foreground">Our Vision</h2>
               </div>
               <p className="text-muted-foreground leading-relaxed text-lg">
-                To be the leading health maintenance organization that transforms healthcare delivery 
-                through innovation, compassion, and community partnerships. We envision a future where 
-                quality healthcare is accessible to all, regardless of background or circumstances.
+                To be the leading Health Maintenance
+                Organization in terms of customer
+                Satisfaction, Enrollment, Product
+                Innovation and Financial
+                Performance.
               </p>
             </Card>
           </div>

@@ -81,7 +81,7 @@ const Index = () => {
             <div className="space-y-8 fade-in-up">
               <div className="inline-flex items-center space-x-2 bg-secondary/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-5 h-5 text-secondary" />
-                <span className="text-sm font-medium text-secondary">Rated among the Best HMOs Nigeria for Customer Satisfaction</span>
+                <span className="text-sm font-extrabold text-secondary">Rated among the Best HMOs Nigeria for Customer Satisfaction.</span>
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-serif font-bold text-white leading-tight">
@@ -101,7 +101,7 @@ const Index = () => {
                 </Button>
                 <Button variant="outline" className="btn-hero-outline bg-white/10 backdrop-blur-sm border-white text-white hover:bg-white hover:text-primary focus-medical">
                   <Phone className="w-5 h-5 mr-2" />
-                  Call (555) 123-4567
+                  Call (+234) 802-6999-710
                 </Button>
               </div>
             </div>
@@ -179,7 +179,7 @@ const Index = () => {
               
               <div className="mt-8">
                 <Button className="btn-secondary focus-medical">
-                  <DollarSign className="w-5 h-5 mr-2" />
+                  <span>₦</span>
                   View Plan Options
                 </Button>
               </div>

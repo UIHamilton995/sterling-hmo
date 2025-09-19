@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Heart, Shield, Users, Phone } from 'lucide-react';
+import { Menu, X, HousePlusIcon, Shield, Users, Phone } from 'lucide-react';
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,7 +10,7 @@ const Navigation = () => {
   const isActive = (path: string) => location.pathname === path;
 
   const navLinks = [
-    { href: '/', label: 'Home', icon: Heart },
+    { href: '/', label: 'Home', icon: HousePlusIcon },
     { href: '/about', label: 'About Us', icon: Users },
     { href: '/services', label: 'Services', icon: Shield },
     { href: '/contact', label: 'Contact', icon: Phone },
@@ -25,7 +25,8 @@ const Navigation = () => {
             <img
               className='h-14 w-14'
               src="/src/assets/SterlingHMO.jpeg"
-              alt="Sterling HMO Logo" />
+              alt="Sterling HMO Logo"
+            />
             <div>
               <h1 className="text-2xl font-serif font-bold text-primary">Sterling HMO</h1>
               <p className="text-xs text-muted-foreground">Put your Health in our Hands.</p>
